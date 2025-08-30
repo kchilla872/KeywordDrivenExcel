@@ -7,7 +7,7 @@ step_ranges = {
     "TC001": range(1, 6),   # Steps 1 to 5 included
     "TC002": range(6, 11),  # Steps 6 to 10 included
     "TC003": range(11, 13), # Steps 11 to 12 included
-    "TC004": range(13, 16)  # Steps 13 to 15 included (range end is exclusive)
+    "TC004": range(13, 18)  # Steps 13 to 18 included
 }
 
 def run_test_case_from_excel(page, test_case_id, excel_file):
